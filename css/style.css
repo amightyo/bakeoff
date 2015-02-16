@@ -1,0 +1,51 @@
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.screenshot{
+	max-width: 460px;
+}
+.description{
+	max-width: 705px;
+	margin-left: auto;
+}
+#title{
+	background-color: #ff0000;
+	color: white;
+	font-size: 48px;
+	font-family: Helvetica;
+	text-align: center;
+	padding: 20px;
+	margin: 30px;
+
+}
+body{
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
+
+@media only screen and (max-width: 500px){
+	p{
+		background-color: red;
+		display: none;
+	}
+}
+.text-muted {
+	color: #BCBBBB;
+}
+.text-thin{
+	font-weight: 100;
+}
+.title-super{
+	font-size: 60px;
+}
+.title-logo{
+	margin-top: 20px;
+}
+ul {
+    list-style-image: url('../images/heart.png');
+}
